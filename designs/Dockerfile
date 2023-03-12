@@ -6,7 +6,7 @@
 # 	${IMAGE_TAG} \
 # 	-v /figures/*.plantuml
 
-FROM maven:3-jdk-8
+FROM maven:3.9-amazoncorretto-17
 
 ARG PLANTUML_VERSION=1.2022.6
 
